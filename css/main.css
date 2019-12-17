@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+nav {
+	color: #fff;
+	background-color: #223;
+	height: 50px;
+	width: 100%;
+}
+
+.d1{background:LightSkyBlue;}
+.d2{background:LightSalmon;}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 500px;
+	grid-column-gap: 20px;
+	grid-gap: 0 20px;
+
+}
