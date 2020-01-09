@@ -1,3 +1,7 @@
+html {
+	font-size: 16px;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -56,6 +60,24 @@ nav p {
 	background-color: #c4c4c4;
 	width: 260px;
 	height: 300px;
+	padding: 10px; }
+.card h4 {
+	color: #005bd9;
+	padding: 0;
+	margin: 0; }
+.card p {
+	font-size: .9rem; }
+.card .stats{
+	padding: 0;
+	display: flex;
+	justify-content: space-between; }
+.card .stats li {
+
+}
+
+.no-decor {
+	text-decoration: none;
+	color: #000;
 }
 
 /* Side Bar
