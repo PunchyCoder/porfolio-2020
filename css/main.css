@@ -8,35 +8,51 @@ html {
 
 body {
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #def;
 }
 
 header {
 	color: #fff;
 	background-color: #223;
 	width: 100%;
-	height: 50px;
+	height: 50px; }
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 12px;
 }
 
 ul { list-style: circle inside; }
 
 .container {
+	background-color: #fff;
 	position: relative;
 	width: 100%;
 	max-width: 340px;
 	margin: 20px auto;
-	padding: 0 20px;
+	padding: 20px;
 	box-sizing: border-box;}
 @media (min-width: 750px){
 	.container {
+
 		display: flex;
 		flex-direction: row;
 		position: relative;
 		width: 100%;
 		max-width: 700px;
 		margin: 20px auto;
-		padding: 0 20px;
-		box-sizing: border-box;
-	}
+		padding: 20px;
+		box-sizing: border-box; } }
+@media (min-width: 960px){
+	.container {
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		width: 100%;
+		max-width: 960px;
+		margin: 20px auto;
+		padding: 20px;
+		box-sizing: border-box; }
 }
 
 main {
@@ -46,8 +62,13 @@ main {
 	width: 100%; }
 @media (min-width: 750px) {
 	main{
-		margin-left: 20px;
-	}
+		max-width: 700px;
+		margin-left: 20px; } 
+}
+@media (min-width: 960px) {
+	main{
+		max-width: 900px;
+		margin-left: 20px; }
 }
 
 nav {
@@ -70,7 +91,7 @@ nav a {
 	grid-gap: 10px 0;
 	justify-items: center;}
 .card {
-	background-color: #c4c4c4;
+	background-color: #e3e3e3;
 	width: 260px;
 	height: 300px;
 	padding: 10px; }
